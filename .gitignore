@@ -1,0 +1,15 @@
+*.changes
+*.xz
+*.gz
+*.deb
+*.upload
+*.dsc
+debian/hunspell-bo/*
+firefox/dictionaries/*
+lo/dictionaries/*
+*.xpi
+*.oxt
+*~
+lo/README.md
+firefox/README.md
+tmp-tibetan-spellchecker-git
