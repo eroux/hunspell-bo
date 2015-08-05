@@ -4,10 +4,10 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>bo@dictionaries.addons.mozilla.org</em:id>
     <em:unpack>true</em:unpack>
-    <em:version>0.1</em:version>
+    <em:version>0.2</em:version>
     <em:type>64</em:type>
     <em:creator>Elie Roux</em:creator>
-    <em:homepageURL>https://github.com/eroux/tibetan-spellchecker</em:homepageURL>
+    <em:homepageURL>https://github.com/eroux/hunspell-bo</em:homepageURL>
     <em:targetApplication>
     <!-- Any Mozilla toolkit -->
       <Description>
@@ -29,7 +29,7 @@
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
         <em:minVersion>10.0</em:minVersion>
-        <em:maxVersion>22.0</em:maxVersion>
+        <em:maxVersion>31.0</em:maxVersion>
       </Description>
     </em:targetApplication>
     <em:targetApplication>
@@ -41,6 +41,6 @@
       </Description>
     </em:targetApplication>
     <em:name>Tibetan Spellcheck</em:name>
-    <em:description>Tibetan (bo) spellchecker.</em:description>
+    <em:description>Tibetan syllable spellchecker.</em:description>
   </Description>
 </RDF>
