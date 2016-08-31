@@ -17,6 +17,7 @@ NEEDAFFIX N
 SFX C Y 6
 SFX C 0 འི . +'brel_sgra
 SFX C 0 འོ . +slar_bsdu
+SFX C 0 འིའོ . +'brel_sgra_slar_bsdu
 SFX C 0 ར . +la_don
 SFX C 0 ས . +byed_sgra
 SFX C 0 འང . +rgyan_sdud
@@ -55,6 +56,7 @@ SFX S 0 མ . +m
 SFX S 0 མས . +ms
 SFX S 0 འི . +'brel_sgra
 SFX S 0 འོ . +slar_bsdu
+SFX S 0 འིའོ . +'brel_sgra_slar_bsdu
 SFX S 0 འང . +rgyan_sdud
 SFX S 0 འམ . +'byed_sdud
 SFX S 0 ར . +r
