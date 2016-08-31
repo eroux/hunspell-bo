@@ -11,7 +11,7 @@ Note that checking compound words for Tibetan is not possible with hunspell alon
 Under Linux or OSX, you can install the spellchecker globally and benefit from it in most applications.
 
 - under Linux, copy `bo.dic` and `bo.aff` to `/usr/share/hunspell`. We are trying to make the spellchecker available in Debian/Ubuntu as `hunspell-bo` package (not ready yet).
-- Under OSX, copy `bo.dic` and `bo.aff` to `/usr/share/hunspell` to `/Library/Spelling` and restart your computer.
+- Under OSX, copy `bo.dic` and `bo.aff` to `/Library/Spelling` and restart your machine.
 
 #### Application-specific installation
 
@@ -33,15 +33,23 @@ For a small test, run
 
 ## Changelog
 
-##### v0.1 - 06/2013
+##### v0.3 - 08/2016
 
-- initial release, contains syllables from the *Bod rgya tshik mdzod chen mo*.
+- add rare affixed particle combination འིའོ 
+- ཧྤ -> ཧྥ
+- more wasurs and འུ suffix possibilities
+- treat ཏྲ, མྲ, སྣྲ and སྨྲ as exceptions and list their possibilities
+- remove erroneous དཀླ, བཏྲ and གཏྲ
 
 ##### v0.2 - 08/2015
 
 - contains all possible standard tibetan syllables (coming from research in grammar books), not limitted to a dictionnary, see [tibetan-spellchecker](https://github.com/eroux/tibetan-spellchecker)
 - replacement proposals for archaic forms
 - main proper name syllables (not including Sanskrit names)
+
+##### v0.1 - 06/2013
+
+- initial release, contains syllables from the *Bod rgya tshik mdzod chen mo*.
 
 ##License
 
