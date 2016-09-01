@@ -1,4 +1,4 @@
-hunspell-bo (0.3-1) unstable; urgency=low
+hunspell-bo (0.3.0-1) unstable; urgency=low
 
   * Initial release (Closes: #714623).
 

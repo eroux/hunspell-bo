@@ -2,7 +2,7 @@ DEBIAN_FILES = changelog copyright rules watch compat hunspell-bo.info-hunspell 
 
 ORIG_FILES = ../bo.dic ../bo.aff ../CHANGELOG.md
 
-VERSION = 0.3
+VERSION = 0.3.0
 
 all: deb
 

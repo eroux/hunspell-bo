@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>bo@dictionaries.addons.mozilla.org</em:id>
     <em:unpack>true</em:unpack>
-    <em:version>0.3</em:version>
+    <em:version>0.3.0</em:version>
     <em:type>64</em:type>
     <em:creator>Elie Roux</em:creator>
     <em:homepageURL>https://github.com/eroux/hunspell-bo</em:homepageURL>

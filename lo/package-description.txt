@@ -1,4 +1,4 @@
-This extension provides tibetan spellchecking at syllable
+This extension provides Classical Tibetan spellchecking at syllable
 level (not composed words).
 
 You can file bugreports at https://github.com/eroux/hunspell-bo/issues
