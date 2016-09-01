@@ -31,26 +31,6 @@ For a small test, run
 
     make test
 
-## Changelog
-
-##### v0.3 - 08/2016
-
-- add rare affixed particle combination འིའོ 
-- ཧྤ -> ཧྥ
-- more wasurs and འུ suffix possibilities
-- treat ཏྲ, མྲ, སྣྲ and སྨྲ as exceptions and list their possibilities
-- remove erroneous དཀླ, བཏྲ and གཏྲ
-
-##### v0.2 - 08/2015
-
-- contains all possible standard tibetan syllables (coming from research in grammar books), not limitted to a dictionnary, see [tibetan-spellchecker](https://github.com/eroux/tibetan-spellchecker)
-- replacement proposals for archaic forms
-- main proper name syllables (not including Sanskrit names)
-
-##### v0.1 - 06/2013
-
-- initial release, contains syllables from the *Bod rgya tshik mdzod chen mo*.
-
 ##License
 
 This work and the derived files are under the [Creative Commons CC0 license](LICENSE).
