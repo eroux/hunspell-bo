@@ -24,5 +24,5 @@ As of v3.0.0 this project adheres to [Semantic Versioning](http://semver.org/). 
 - replacement proposals for archaic forms
 - main proper name syllables (not including Sanskrit names)
 
-##### [0.1.0] - 2013-06-15
+## [0.1.0] - 2013-06-15
 - initial release, contains syllables from the བོད་རྒྱ་ཚིག་མཛོད་ཆེན་མོ།.

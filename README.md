@@ -1,4 +1,4 @@
-# Classical Tibetan syllable spellchecker for Hunspell 
+# Classical Tibetan syllable spellchecker for Hunspell
 
 You can find here the necessary files to use spell checking for Classical Tibetan at syllable level (not composed words) in [Hunspell](http://hunspell.sourceforge.net/) (used in [many applications](https://en.wikipedia.org/wiki/Hunspell#Uses)).
 
@@ -31,6 +31,10 @@ For a small test, run
 
     make test
 
-##License
+## Changes
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## License
 
 This work and the derived files are under the [Creative Commons CC0 license](LICENSE).
