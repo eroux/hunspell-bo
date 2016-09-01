@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Tibetan Spellchecker
+Upstream-Name: hunspell-bo
 Upstream-Contact: Elie Roux <elie.roux@telecom-bretagne.eu>
 Source: https://github.com/eroux/hunspell-bo
 

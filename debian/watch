@@ -1,3 +1,3 @@
 version=3
 opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/hunspell-bo-$1\.tar\.gz/ \
-https://github.com/eroux/hunspell-bo/tags .*/v?(\d\S*)\.tar\.gz
+https://github.com/eroux/hunspell-bo/releases .*/v?(\d\S*)\.tar\.gz
