@@ -3,17 +3,28 @@ Section: text
 Priority: optional
 Maintainer: Elie Roux <elie.roux@telecom-bretagne.eu>
 Build-Depends: dpkg-dev (>= 1.16.2), debhelper (>= 9), dictionaries-common-dev (>= 1.0.0)
-Standards-Version: 3.9.4.0
-Homepage: https://github.com/eroux/tibetan-spellchecker
-Vcs-Git: https://github.com/eroux/tibetan-spellchecker.git
-Vcs-Browser: https://github.com/eroux/tibetan-spellchecker
+Standards-Version: 3.9.8
+Homepage: https://github.com/eroux/hunspell-bo
+Vcs-Git: https://github.com/eroux/hunspell-bo.git
+Vcs-Browser: https://github.com/eroux/hunspell-bo
 
 Package: hunspell-bo
 Architecture: all
 Depends: dictionaries-common (>= 1.10.5), ${misc:Depends}
 Provides: hunspell-dictionary, hunspell-dictionary-bo
-Suggests: iceape-browser | iceweasel | icedove, libreoffice
-Conflicts: openoffice.org (<= 1.0.3-2)
-Description: Tibetan dictionary for hunspell
+Suggests: hunspell,
+ libreoffice-core | openoffice.org-hunspell | openoffice.org-core (>= 2.0.2),
+ iceape-browser | iceweasel | icedove
+Conflicts: mozilla-browser (<< 1.8+1.1.1-2),
+ iceape-browser (<< 1.1.1-2),
+ firefox (<< 2.0.0.3-2),
+ thunderbird (<< 2.0.0.1+0dfsg-0),
+ iceweasel (<< 2.0.0.3-2),
+ icedove (<< 2.0.0.0-4),
+ libxul0d (= 1.8.0.11-3),
+ openoffice.org (<= 1.0.3-2),
+ openoffice.org-core (<< 2.1~m190-1)
+Description: Classical Tibetan language dictionary for hunspell
  This dictionary contains Tibetan valid syllables for the hunspell
- spellchecker. It only checks syllables separately, not composed words.
+ spellchecker. Contains all possible legal syllables of Classical
+ Tibetan, plus the syllables found in many proper nouns.

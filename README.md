@@ -1,8 +1,8 @@
-# Tibetan syllable spellchecker for Hunspell 
+# Classical Tibetan syllable spellchecker for Hunspell 
 
-This directory contains the necessary files to use spell checking for Tibetan at syllable level (not composed words) in [Hunspell](http://hunspell.sourceforge.net/) (used in [many applications](https://en.wikipedia.org/wiki/Hunspell#Uses)).
+You can find here the necessary files to use spell checking for Classical Tibetan at syllable level (not composed words) in [Hunspell](http://hunspell.sourceforge.net/) (used in [many applications](https://en.wikipedia.org/wiki/Hunspell#Uses)).
 
-Note that checking compound words for Tibetan is not possible with hunspell alone.
+Note that checking compound words for Tibetan is not possible with hunspell alone due to the absence of separation between words.
 
 ## Using
 

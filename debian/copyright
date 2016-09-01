@@ -1,10 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Tibetan Spellchecker
 Upstream-Contact: Elie Roux <elie.roux@telecom-bretagne.eu>
-Source: https://github.com/eroux/tibetan-spellchecker
+Source: https://github.com/eroux/hunspell-bo
 
 Files: *
-Copyright: 2013 Elie Roux
+Copyright: 2013-2016 Elie Roux
 License: CC0
 
 License: CC0

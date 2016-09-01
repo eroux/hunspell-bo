@@ -1,5 +1,5 @@
-hunspell-bo (0.1-1) unstable; urgency=low
+hunspell-bo (0.3-1) unstable; urgency=low
 
   * Initial release (Closes: #714623).
 
- -- Elie Roux <elie.roux@telecom-bretagne.eu>  Mon, 1 July 2013 16:55:57 +0200
+ -- Elie Roux <elie.roux@telecom-bretagne.eu>  Thu, 1 Sep 2016 10:10:00 +0200

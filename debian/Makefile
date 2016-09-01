@@ -1,8 +1,8 @@
-DEBIAN_FILES = changelog copyright rules compat hunspell-bo.info-hunspell hunspell-bo.links source control hunspell-bo.docs hunspell-bo.install
+DEBIAN_FILES = changelog copyright rules watch compat hunspell-bo.info-hunspell hunspell-bo.links source control hunspell-bo.install
 
-ORIG_FILES = ../README.md ../bo.dic ../bo.aff
+ORIG_FILES = ../bo.dic ../bo.aff
 
-VERSION = 0.1
+VERSION = 0.3
 
 all: deb
 
@@ -18,4 +18,4 @@ deb: orig
 	@cd hunspell-bo && dpkg-buildpackage
 
 clean:
-	@rm -rf hunspell-bo
+	@rm -rf *.deb *.xz *.gz *.dsc *.changes *.upload
