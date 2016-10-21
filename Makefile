@@ -1,4 +1,9 @@
-.PHONY: test update firefox lo debian
+.PHONY: test error clean update firefox lo
+
+error:
+	@echo "Please choose one of the following target: update, test, firefox, lo"
+
+all: update test firefox lo
 
 update:
 	@echo "Update bo.dic with tibetan-spellchecker data"
@@ -20,13 +25,8 @@ firefox:
 lo:
 	$(MAKE) -C lo
 
-deb:
-	$(MAKE) -C debian
-
 clean:
 	rm -rf tmp-tibetan-spellchecker-git
 	$(MAKE) -C firefox clean
 	$(MAKE) -C lo clean
 	$(MAKE) -C debian clean
-
-all: firefox lo
