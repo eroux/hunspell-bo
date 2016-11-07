@@ -10,7 +10,7 @@ Note that checking compound words for Tibetan is not possible with hunspell alon
 
 Under Linux or OSX, you can install the spellchecker globally and benefit from it in most applications.
 
-- under Linux, copy `bo.dic` and `bo.aff` to `/usr/share/hunspell`. We are trying to make the spellchecker available in Debian/Ubuntu as `hunspell-bo` package (not ready yet).
+- under Linux, copy `bo.dic` and `bo.aff` to `/usr/share/hunspell`, or use the `hunspell-bo` package if available in your distribution (under [Debian](https://packages.debian.org/search?keywords=hunspell-bo) for example).
 - Under OSX, copy `bo.dic` and `bo.aff` to `/Library/Spelling` and restart your machine.
 
 #### Application-specific installation
