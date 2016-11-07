@@ -16,7 +16,7 @@ Under Linux or OSX, you can install the spellchecker globally and benefit from i
 #### Application-specific installation
 
 - for Firefox, [an extension](https://addons.mozilla.org/fr/firefox/addon/tibetan-spellchecker/) is released
-- for LibreOffice/OpenOffice, an extension will be released too
+- for LibreOffice/OpenOffice see [this extension](http://extensions.openoffice.org/en/project/tibetan-syllable-spell-checker)
 - for Adobe products (>= CS5.5), see the instructions on [this page](http://blog.napsys.com/2012/11/adding-hyphenation-and-spelling.html)
 
 The sources for these extensions are in the [firefox](firefox/) and [lo](lo/) directories. To build them, run `make`.
