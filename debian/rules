@@ -4,12 +4,6 @@
 %:
 	dh $@
 
-#
-# override the default makefile target
-# test target is made separately, so we only build firefox and lo
-override_dh_auto_build:
-	make firefox lo
-
 override_dh_auto_install:
 	dh_auto_install
 	installdeb-hunspell
