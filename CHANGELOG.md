@@ -26,7 +26,7 @@ As of v0.3.0 this project adheres to [Semantic Versioning](http://semver.org/). 
 
 ## [0.2.0] - 2015-08-15
 ### Changed
-- contains all possible "legal" Classical Tibetan syllables (coming from research in grammar books), not limitted to a dictionnary, see [tibetan-spellchecker](https://github.com/eroux/tibetan-spellchecker)
+- contains all possible "legal" Classical Tibetan syllables (coming from research in grammar books), not limitted to a dictionary, see [tibetan-spellchecker](https://github.com/eroux/tibetan-spellchecker)
 
 ### Added
 - replacement proposals for archaic forms
